@@ -9,6 +9,6 @@ public class TestController {
 	
 	@GetMapping(value = "/test")
 	public String getTest() {
-		return "This is from My Springboot App. hello ";
+		return "This is my first springboot app .";
 	}
 }
